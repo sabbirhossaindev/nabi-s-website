@@ -1,0 +1,76 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 45px;
+}
+span{
+    color: orange;
+}
+
+.first-section{
+    display: flex;
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.fst-section-div{
+    width: 50%;
+    padding: 5%;
+}
+.fst-section-div img{
+    width: 95%;
+}
+.btn-facbook{
+    background-image: linear-gradient(crimson, tomato);
+    border: none; 
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+.btn-facbook a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.sec-section{
+    display: flex;
+    margin-bottom: 130px;
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.sec-section-div{
+    width: 50%;
+    padding: 5%;
+}
+.sec-section-div img{
+    width: 95%;
+}
+.btn-two-facbook{
+    background-image: linear-gradient(#a24255, #dc391d);
+    border: none; 
+    border-radius: 10px;
+    padding: 10px 60px;
+}
+.btn-two-facbook a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.trd-section-father{
+    display: flex;
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.trd-child-div{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
